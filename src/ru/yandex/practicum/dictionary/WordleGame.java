@@ -7,18 +7,6 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 
-/*
-в этом классе хранится словарь и состояние игры
-    текущий шаг
-    всё что пользователь вводил
-    правильный ответ
-
-в этом классе нужны методы, которые
-    проанализируют совпадение слова с ответом
-    предложат слово-подсказку с учётом всего, что вводил пользователь ранее
-
-не забудьте про специальные типы исключений для игровых и неигровых ошибок
- */
 public class WordleGame {
     private static final int MAX_ATTEMPTS = 6;
     private static final int WORD_LENGTH = 5;

@@ -13,16 +13,6 @@ import java.io.PrintWriter;
 import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
-/*
-в главном классе нам нужно:
-    создать лог-файл (он должен передаваться во все классы)
-    создать загрузчик словарей WordleDictionaryLoader
-    загрузить словарь WordleDictionary с помощью класса WordleDictionaryLoader
-    затем создать игру WordleGame и передать ей словарь
-    вызвать игровой метод в котором в цикле опрашивать пользователя и передавать информацию в игру
-    вывести состояние игры и конечный результат
- */
-
 public class Wordle {
     private static final int MAX_ATTEMPTS = 6;
     private static final int WORD_LENGTH = 5;
