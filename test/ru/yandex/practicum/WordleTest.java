@@ -19,7 +19,7 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class WordleTests {
+class WordleTest {
 
     private WordleDictionary dictionary;
     private PrintWriter log;
