@@ -3,6 +3,12 @@ package ru.yandex.practicum;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.io.TempDir;
+import ru.yandex.practicum.dictionary.WordleDictionary;
+import ru.yandex.practicum.dictionary.WordleDictionaryLoader;
+import ru.yandex.practicum.dictionary.WordleGame;
+import ru.yandex.practicum.exceptions.GameOverException;
+import ru.yandex.practicum.exceptions.WordleException;
+import ru.yandex.practicum.exceptions.WordleGameException;
 
 import java.io.File;
 import java.io.FileWriter;

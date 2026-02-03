@@ -1,4 +1,7 @@
-package ru.yandex.practicum;
+package ru.yandex.practicum.dictionary;
+
+import ru.yandex.practicum.exceptions.GameOverException;
+import ru.yandex.practicum.exceptions.WordleGameException;
 
 import java.io.PrintWriter;
 import java.util.ArrayList;

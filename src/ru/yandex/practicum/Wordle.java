@@ -1,5 +1,12 @@
 package ru.yandex.practicum;
 
+import ru.yandex.practicum.dictionary.WordleDictionary;
+import ru.yandex.practicum.dictionary.WordleDictionaryLoader;
+import ru.yandex.practicum.dictionary.WordleGame;
+import ru.yandex.practicum.exceptions.GameOverException;
+import ru.yandex.practicum.exceptions.WordleDictionaryException;
+import ru.yandex.practicum.exceptions.WordleGameException;
+
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;

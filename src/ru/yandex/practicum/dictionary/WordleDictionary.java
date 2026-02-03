@@ -1,12 +1,7 @@
-package ru.yandex.practicum;
+package ru.yandex.practicum.dictionary;
 
-import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import java.util.Random;
-import java.util.Set;
-import java.util.concurrent.ThreadLocalRandom;
 
 /*
 этот класс содержит в себе список слов List<String>
